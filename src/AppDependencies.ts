@@ -1,5 +1,5 @@
 import AppModuleAssembler from './AppModuleAssembler';
-import UIView from 'uikit/UIView';
+import UIView from 'or-ui/kit/UIView' 
 
 export default class AppDependencies {
   assembler?: AppModuleAssembler;

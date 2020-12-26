@@ -1,10 +1,7 @@
-import UILabel from 'uikit/UILabel'
-import UIImageView from 'uikit/UIImageView'
-import UIButton from 'uikit/UIButton'
-import {Relation,Attribute} from 'autolayout'
-import {LayoutConstraint} from 'uikit/LayoutConstraint'
- 
-import UITableViewCell from 'uikit/UITableViewCell' 
+import UILabel from 'or-ui/kit/UILabel'
+import UIImageView from 'or-ui/kit/UIImageView'
+import UIButton from 'or-ui/kit/UIButton'
+import UITableViewCell from 'or-ui/kit/UITableViewCell' 
 
 export default class SongTableViewCell extends UITableViewCell {
   playBtn: UIButton;

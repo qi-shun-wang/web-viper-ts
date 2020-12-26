@@ -5,7 +5,7 @@ import { EntryModuleInterface } from '../../mi/EntryModuleInterface';
 import { ViewTransitionDelegate } from '../../../../core/ui/ViewTransitionDelegate';
 import PresentationTransition from '../../../../core/ui/PresentationTransition';
 import DismissalTransition from '../../../../core/ui/DismissalTransition';
-import UIView from 'uikit/UIView';
+import UIView from 'or-ui/kit/UIView';
 
 export default class EntryWireframe
   implements EntryWireframeInterface, ViewTransitionDelegate {

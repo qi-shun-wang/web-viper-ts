@@ -4,12 +4,11 @@ import { ViewTransitionDelegate } from '../../../../core/ui/ViewTransitionDelega
 import LeftPanelView from './LeftPanelView';
 import RightPanelView from './RightPanelView';
 import { EntryModuleInterface } from '../../mi/EntryModuleInterface'; 
-import UIView from 'uikit/UIView' 
-import {CGRect} from 'uikit/CGRect'
-import {Relation,Attribute} from 'autolayout'
-import {LayoutConstraint} from 'uikit/LayoutConstraint' 
-import {CGRectZero} from 'uikit/CGRect'
-import {CGSize} from 'uikit/CGSize'
+import UIView from 'or-ui/kit/UIView' 
+import {CGRect} from 'or-ui/kit/CGRect'
+import {Relation,Attribute,LayoutConstraint} from 'or-ui/kit' 
+import {CGRectZero} from 'or-ui/kit/CGRect'
+import {CGSize} from 'or-ui/kit/CGSize'
 export default class EntryView extends UIView implements EntryViewInterface {
   eventHandler?: EntryModuleInterface;
 

@@ -1,5 +1,4 @@
- 
-import {CGRect,CGRectZero} from 'uikit/CGRect';
+import {CGRect,CGRectZero} from 'or-ui/kit/CGRect' 
 export default class EntryDataManager {
   leftPannelFrame: CGRect = CGRectZero;
 

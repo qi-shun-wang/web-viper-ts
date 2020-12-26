@@ -1,16 +1,15 @@
- 
 import SongTableViewCell from './SongTableViewCell';
-import exampleText from './constants';  
-import UIView from 'uikit/UIView'
-import UITableView from 'uikit/UITableView'
-import UITextView from 'uikit/UITextView'
-import UIButton from 'uikit/UIButton'
-import {Relation,Attribute} from 'autolayout'
-import {LayoutConstraint} from 'uikit/LayoutConstraint'
-import {UITableViewDataSource,UITableViewDelegate} from 'uikit/UITableView'
-import UITableViewCell from 'uikit/UITableViewCell'
-import {CGRectZero} from 'uikit/CGRect'
-import {CGSize} from 'uikit/CGSize'
+import exampleText from './constants';
+import { UITableViewDataSource, UITableViewDelegate } from 'or-ui/kit/UITableView'
+import UIView from 'or-ui/kit/UIView'
+import { CGRectZero } from 'or-ui/kit/CGRect'
+import { CGSize } from 'or-ui/kit/CGSize'
+import UITextView from 'or-ui/kit/UITextView'
+import UITableView from 'or-ui/kit/UITableView'
+import UIButton from 'or-ui/kit/UIButton'
+import { Relation, Attribute, LayoutConstraint } from 'or-ui/kit'
+import UITableViewCell from 'or-ui/kit/UITableViewCell'
+
 export default class RightPanelView
   extends UIView
   implements UITableViewDataSource, UITableViewDelegate {
@@ -89,7 +88,7 @@ export default class RightPanelView
     const cell = tableView.dequeueReusableCellAndAddToTable(
       'TestCellID',
       index
-    )  as SongTableViewCell;
+    ) as SongTableViewCell;
     cell.playBtn.setTitle(`Play${this.data[index]}`);
     cell.titleLb.setText(`Title${this.data[index]}`);
     cell.subTitleLb.setText(`SubTitle${this.data[index]}`);

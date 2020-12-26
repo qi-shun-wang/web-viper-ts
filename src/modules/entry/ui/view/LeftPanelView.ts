@@ -1,8 +1,8 @@
-import UIView from 'uikit/UIView'
-import UICollectionView from 'uikit/UICollectionView'
-import {UICollectionViewDataSource,UICollectionViewLayoutDelegate} from 'uikit/UICollectionView'
-import {CGRectZero} from 'uikit/CGRect'
-  
+import UICollectionView from 'or-ui/kit/UICollectionView'
+import { UICollectionViewDataSource, UICollectionViewLayoutDelegate } from 'or-ui/kit/UICollectionView'
+import UIView from 'or-ui/kit/UIView'
+import { CGRectZero } from 'or-ui/kit/CGRect'
+
 export default class LeftPanelView
   extends UIView
   implements UICollectionViewDataSource, UICollectionViewLayoutDelegate {
